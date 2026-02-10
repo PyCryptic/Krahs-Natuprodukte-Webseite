@@ -14,7 +14,7 @@
        'p-salat': {
            title: "Salatsetzlinge",
            price: "0,25 € / Stück",
-           image: "https://images.unsplash.com/photo-1592419044706-39796d40f98c?q=80&w=600&auto=format&fit=crop",
+           image: "assets/img/Produktbilder/salatsetzlinge.jpg",
            tag: "Saisonbedingt",
            desc: "Kopfsalat, Lollo Rossa, Eisbergsalat, Romana und mehr.",
            varieties: [{
