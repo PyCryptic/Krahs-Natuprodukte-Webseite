@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krahls Naturprodukte - Wein & Feinkost</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/img/Logo.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="description" content="Krahls Naturprodukte in Kirchardt-Berwangen – erlesene Weine, Feinkost und Spezialitäten direkt vor Ort entdecken. Qualität, Tradition und echter Geschmack.">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        wine: '#722F37'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-stone-50 text-stone-800">
+
+    <header class="fixed w-full z-50 top-0 left-0 shadow-sm">
+
+        <div class="bg-stone-100 border-b border-stone-200 h-10 flex items-center justify-between px-4">
+            <div class="max-w-7xl mx-auto w-full px-4 flex gap-4">
+                <a href="https://facebook.com" target="_blank" class="text-[#1877F2] hover:opacity-75 transition transform hover:scale-110">
+                    <i data-lucide="facebook" class="w-5 h-5"></i>
+                </a>
+                <a href="https://www.instagram.com/krahlsnaturprodukte?igsh=djY0NXl2ZTRkbXQ%3D" target="_blank" class="text-[#E4405F] hover:opacity-75 transition transform hover:scale-110">
+                    <i data-lucide="instagram" class="w-5 h-5"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-[#1DA1F2] hover:opacity-75 transition transform hover:scale-110">
+                    <i data-lucide="twitter" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+
+        <nav class="bg-white/95 backdrop-blur-md border-b border-stone-100 w-full">
+            <div class="max-w-7xl mx-auto px-4 flex justify-between h-20 items-center">
+
+                <a href="index.html" class="flex items-center group">
+                    <img src="https://placehold.co/150x150/722F37/ffffff?text=KR" alt="Krahls Logo" class="custom-logo">
+
+                    <div class="flex flex-col leading-none">
+                        <span class="text-xl md:text-2xl font-bold text-wine uppercase group-hover:opacity-80 transition">Krahls</span>
+                        <span class="text-[9px] md:text-[10px] font-light uppercase tracking-[0.3em] text-stone-500">Naturprodukte</span>
+                    </div>
+                </a>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="text-sm font-medium hover:text-wine">Home</a>
+                    <a href="produkte.html" class="text-sm font-medium hover:text-wine">Produkte</a>
+                    <a href="team.html" class="text-sm font-medium hover:text-wine">Team</a>
+                    <a href="anfahrt.html" class="text-sm font-medium hover:text-wine">Anfahrt</a>
+                    <a href="events.html" class="text-sm font-medium hover:text-wine">Events</a>
+
+                    <!--  <a href="shop.html" class="bg-wine text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-red-900 transition">Online 
+                        Shop</a> -->
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden p-2">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden bg-white border-t p-4 space-y-4">
+                <a href="index.html" class="block text-lg">Home</a>
+                <a href="produkte.html" class="block text-lg">Produkte</a>
+                <a href="team.html" class="block text-lg">Team</a>
+                <a href="anfahrt.html" class="block text-lg">Anfahrt</a>
+                <a href="events.html" class="block text-lg">Events</a>
+                <!--     <a href="shop.html" class="block text-lg text-wine font-bold">Online Shop</a> -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-32">
+        <section class="relative h-[80vh] flex items-center justify-center text-white">
+            <div class="absolute inset-0 -z-10 bg-black">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1920" class="w-full h-full object-cover opacity-40">
+            </div>
+            <div class="text-center px-6">
+                <h1 class="text-5xl md:text-8xl font-bold mb-4">Krahls Naturprodukte
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto mb-8">Erlesene Weine und Spezialitäten direkt aus Kirchardt.</p>
+                <a href="produkte.html" class="bg-wine px-10 py-4 rounded-full font-bold">Sortiment
+                        ansehen</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-stone-950 text-stone-400 py-16 px-4 border-t border-stone-900">
+        <div class="max-w-7xl mx-auto text-center flex flex-col items-center">
+
+            <img id="footer-logo-img" src="./assets/img/logo/Logo.jpeg" alt="Krahls Logo Footer" class="footer-logo cursor-pointer hover:opacity-80 transition">
+
+            <span class="text-2xl font-bold text-white uppercase tracking-tighter">Krahls
+                    Naturprodukte</span>
+            <p class="mt-4 text-sm max-w-md mx-auto text-stone-500">Qualität, Tradition und Leidenschaft für echten Geschmack. Ihr Partner für Naturprodukte in Kirchardt.</p>
+
+            <div class="mt-8 flex justify-center space-x-6 text-sm">
+                <a href="impressum.html" class="hover:text-white transition">Impressum</a>
+                <a href="datenschutz.html" class="hover:text-white transition">Datenschutz</a>
+            </div>
+            <p class="mt-8 text-xs text-stone-600">© 2026 Krahls Naturprodukte
+            </p>
+        </div>
+    </footer>
+
+    <div id="logo-popup" class="fixed inset-0 z-[100] hidden items-center justify-center p-4">
+        <div id="logo-popup-overlay" class="absolute inset-0 bg-black/80 backdrop-blur-sm cursor-pointer transition-opacity"></div>
+
+        <img id="logo-popup-content" src class="relative z-10 max-h-[80vh] max-w-full object-contain rounded-lg shadow-2xl cursor-pointer">
+    </div>
+
+    <script src="./assets/js/scrip.js"></script>
+    <script src="./assets/js/logo.js"></script>
+    <script src="./assets/js/nav.js"></script>
+
+    <script>
+        lucide.createIcons();
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+
+</html>

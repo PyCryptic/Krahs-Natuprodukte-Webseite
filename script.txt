@@ -1,0 +1,8 @@
+ <div class="text-center group">
+                    <div class="relative w-64 h-64 mx-auto mb-8">
+                        <img src="./assets/img/Team-Bilder/Rasiel_M.jpeg" class="w-full h-full rounded-full object-cover shadow-2xl relative z-10 border-4 border-white">
+                    </div>
+                    <h4 class="text-3xl font-bold mb-2">Rasiel Moser</h4>
+                    <p class="text-wine font-bold text-lg mb-4 italic">Webentwickler</p>
+                    <i class="text-stone-600">"Ich schreibe nicht nur Code, ich entwickle Lösungen. Mein Anspruch ist es, komplexe Probleme durch saubere Programmierung und logisches Denken effizient zu lösen."</i>
+                </div>

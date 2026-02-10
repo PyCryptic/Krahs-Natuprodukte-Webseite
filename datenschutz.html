@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutz - Krahls Naturprodukte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/img/Logo.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        wine: '#722F37',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-stone-50 text-stone-800 flex flex-col min-h-screen">
+
+
+    <div class="bg-stone-100 border-b border-stone-200 h-10 flex items-center justify-between px-4">
+        <div class="max-w-7xl mx-auto w-full px-4 flex gap-4">
+            <a href="https://facebook.com" target="_blank" class="text-[#1877F2] hover:opacity-75 transition transform hover:scale-110">
+                <i data-lucide="facebook" class="w-5 h-5"></i>
+            </a>
+            <a href="https://www.instagram.com/krahlsnaturprodukte?igsh=djY0NXl2ZTRkbXQ%3D" target="_blank" class="text-[#E4405F] hover:opacity-75 transition transform hover:scale-110">
+                <i data-lucide="instagram" class="w-5 h-5"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="text-[#1DA1F2] hover:opacity-75 transition transform hover:scale-110">
+                <i data-lucide="twitter" class="w-5 h-5"></i>
+            </a>
+        </div>
+    </div>
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-stone-100">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between h-20 items-center">
+
+            <a href="index.html" class="flex items-center group">
+                <img src="https://placehold.co/150x150/722F37/ffffff?text=KR" alt="Krahls Logo" class="custom-logo">
+
+                <div class="flex flex-col leading-none">
+                    <span class="text-xl md:text-2xl font-bold text-wine uppercase group-hover:opacity-80 transition">Krahls</span>
+                    <span class="text-[9px] md:text-[10px] font-light uppercase tracking-[0.3em] text-stone-500">Naturprodukte</span>
+                </div>
+            </a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="index.html" class="text-sm font-medium hover:text-wine">Home</a>
+                <a href="produkte.html" class="text-sm font-medium hover:text-wine">Produkte</a>
+                <a href="team.html" class="text-sm font-medium hover:text-wine">Team</a>
+                <a href="anfahrt.html" class="text-sm font-medium hover:text-wine">Anfahrt</a>
+                <a href="events.html" class="text-sm font-medium hover:text-wine">Events</a>
+
+                <!--      <a href="shop.html" class="bg-wine text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-red-900 transition">Online -->
+                Shop</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden p-2"><i
+                        data-lucide="menu"></i></button>
+        </div>
+        <div id="mobile-menu" class="hidden bg-white border-t p-4 space-y-4">
+            <a href="index.html" class="block text-lg">Home</a>
+            <a href="produkte.html" class="block text-lg">Produkte</a>
+            <a href="team.html" class="block text-lg">Team</a>
+            <a href="anfahrt.html" class="block text-lg">Anfahrt</a>
+            <a href="events.html" class="block text-lg">Events</a>
+            <!--    <a href="shop.html" class="block text-lg text-wine font-bold">Online Shop</a> -->
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-24 max-w-4xl mx-auto px-4 flex-grow">
+        <div class="mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-wine mb-4">Datenschutzerklärung</h1>
+            <div class="w-20 h-1 bg-wine rounded-full"></div>
+        </div>
+
+        <div class="bg-white p-8 md:p-12 rounded-3xl border border-stone-100 shadow-sm space-y-12">
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="shield-check" class="mr-3 text-wine"></i> 1. Datenschutz auf einen Blick
+                </h2>
+                <div class="space-y-4 text-stone-600 leading-relaxed">
+                    <p>
+                        Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen oder unsere Dienste (stationär und mobil) in Anspruch nehmen.
+                    </p>
+                    <p>
+                        <strong>Datenerfassung auf dieser Website:</strong> Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen (z.B. per Kontaktformular oder Bestellung). Andere Daten werden automatisch beim Besuch der Website durch
+                        unsere IT-Systeme erfasst (z.B. technische Daten wie Browser oder Uhrzeit).
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="building" class="mr-3 text-wine"></i> 2. Verantwortliche Stelle & Gewerbe
+                </h2>
+                <p class="text-stone-600 leading-relaxed mb-6">
+                    Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website und im Geschäftsbetrieb ist:
+                </p>
+
+                <div class="bg-stone-50 p-6 rounded-2xl border border-stone-200">
+                    <p class="font-bold text-lg text-wine mb-2">Dieter Krahl</p>
+                    <p class="text-stone-600">Bergstraße 3</p>
+                    <p class="text-stone-600 mb-4">74912 Kirchardt</p>
+
+                    <div class="space-y-1">
+                        <p class="text-stone-600"><span class="font-semibold w-20 inline-block">Telefon:</span> 07266 - 1600</p>
+                        <p class="text-stone-600"><span class="font-semibold w-20 inline-block">Fax:</span> 07266 - 502165</p>
+                        <p class="text-stone-600"><span class="font-semibold w-20 inline-block">E-Mail:</span> <a href="mailto:krahlfabian2@gmail.com" class="hover:text-wine transition">krahlfabian2@gmail.com</a></p>
+                    </div>
+
+                    <hr class="my-4 border-stone-200">
+
+                    <h3 class="font-bold text-stone-800 mb-2">Gewerbliche Erlaubnis</h3>
+                    <p class="text-stone-600 text-sm mb-2">Wir betreiben ein stehendes Gewerbe sowie ein Reisegewerbe.</p>
+                    <ul class="text-sm text-stone-700 space-y-1">
+                        <li>Reisegewerbekarte-Nr.: <span class="font-mono bg-stone-200 px-1 rounded">8/2003</span></li>
+                        <li>Ausstellende Behörde: <span class="font-semibold">Stadt Bad Rappenau</span></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="server" class="mr-3 text-wine"></i> 3. Hosting
+                </h2>
+                <p class="text-stone-600 leading-relaxed">
+                    Wir hosten die Inhalte unserer Website bei folgendem Anbieter:<br>
+                    <strong>netcup GmbH</strong><br> Emmy-Noether-Straße 10<br> D-76131 Karlsruhe<br>
+                    <br> Der Anbieter verarbeitet Ihre IP-Adresse und technische Daten, um die Website sicher und schnell anzuzeigen (Art. 6 Abs. 1 lit. f DSGVO).
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="file-text" class="mr-3 text-wine"></i> 4. Kunden- und Vertragsdaten
+                </h2>
+                <div class="space-y-4 text-stone-600 leading-relaxed">
+                    <p>
+                        Wir erheben, verarbeiten und nutzen personenbezogene Daten nur, soweit sie für die Begründung, inhaltliche Ausgestaltung oder Änderung des Rechtsverhältnisses erforderlich sind (Bestandsdaten). Dies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO,
+                        der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.
+                    </p>
+                    <p>
+                        <strong>Konkret bedeutet das:</strong> Wenn Sie bei uns Wein, Erde oder andere Produkte bestellen (telefonisch, per E-Mail oder vor Ort), speichern wir Ihren Namen, Adresse und Kontaktdaten, um die Rechnung zu erstellen und die
+                        Ware an Sie zu übergeben.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="truck" class="mr-3 text-wine"></i> 5. Datenweitergabe (Versand & Zahlung)
+                </h2>
+                <p class="text-stone-600 leading-relaxed">
+                    Zur Vertragserfüllung geben wir Ihre Daten an das mit der Lieferung beauftragte Versandunternehmen weiter, soweit dies zur Lieferung der Waren erforderlich ist. Zur Abwicklung von Zahlungen geben wir Ihre Zahlungsdaten an das mit der Zahlung beauftragte
+                    Kreditinstitut weiter. Eine weitergehende Übermittlung von Daten an Dritte erfolgt nicht bzw. nur dann, wenn Sie der Übermittlung ausdrücklich zugestimmt haben.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="user-check" class="mr-3 text-wine"></i> 6. Jugendschutz & Altersprüfung
+                </h2>
+                <div class="bg-stone-50 p-4 rounded-xl border-l-4 border-wine">
+                    <p class="text-stone-600 leading-relaxed">
+                        Wir versenden keine Ware, die unter das <strong>Jugendschutzgesetz (JuSchG)</strong> fällt (z. B. Wein oder Spirituosen), an Personen unter dem gesetzlich vorgeschriebenen Mindestalter.
+                        <br><br>
+                        <strong>Wein:</strong> Ab 16 Jahren.<br>
+                        <strong>Spirituosen:</strong> Ab 18 Jahren.<br><br> Zur Erfüllung unserer gesetzlichen Verpflichtungen (Art. 6 Abs. 1 lit. c DSGVO) verarbeiten wir ggf. Ihr Geburtsdatum oder führen eine Altersprüfung durch. Wir weisen zudem das
+                        beauftragte Versandunternehmen an, die Zustellung nur an Personen über dem geforderten Mindestalter vorzunehmen (Alterssichtprüfung).
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="image" class="mr-3 text-wine"></i> 7. Urheberrecht & Bilder
+                </h2>
+                <div class="bg-stone-50 p-4 rounded-xl border-l-4 border-wine">
+                    <p class="text-stone-600 leading-relaxed">
+                        <strong>Eigene Bilder (Keine externen Quellen):</strong><br> Alle auf dieser Website verwendeten Produktbilder und Fotos sind <strong>Eigentum des
+                            Seitenbetreibers</strong>. Es werden keine Bilder von externen Servern geladen. Das Urheberrecht liegt vollständig bei uns.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="share-2" class="mr-3 text-wine"></i> 8. Soziale Medien
+                </h2>
+                <p class="text-stone-600 leading-relaxed mb-4">
+                    Wir nutzen Verlinkungen zu <strong>Facebook, Instagram und Twitter</strong>. Es handelt sich hierbei um reine Links, keine Tracking-Plugins. Daten werden erst übertragen, wenn Sie aktiv auf den Link klicken.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="type" class="mr-3 text-wine"></i> 9. Lokale Schriftarten
+                </h2>
+                <p class="text-stone-600 leading-relaxed">
+                    Diese Seite nutzt zur Darstellung von Schriftarten Web Fonts (z.B. Inter), die <strong>lokal auf
+                        unserem Server installiert</strong> sind. Es findet <strong>keine Verbindung zu Servern von
+                        Google</strong> statt. Ihre IP-Adresse wird hierbei nicht an Dritte weitergegeben.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 flex items-center text-stone-800">
+                    <i data-lucide="lock" class="mr-3 text-wine"></i> 10. SSL-Verschlüsselung
+                </h2>
+                <p class="text-stone-600 leading-relaxed">
+                    Diese Seite nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie am Schloss-Symbol in Ihrer Browserzeile.
+                </p>
+            </section>
+
+        </div>
+
+        <div class="mt-12 text-center">
+            <a href="impressum.html" class="text-stone-400 hover:text-wine transition text-sm underline">Zum
+                Impressum</a>
+        </div>
+    </main>
+
+    <footer class="bg-stone-950 text-stone-400 py-16 px-4 border-t border-stone-900">
+        <div class="max-w-7xl mx-auto text-center flex flex-col items-center">
+
+            <img id="footer-logo-img" src="./assets/img/logo/Logo.jpeg" alt="Krahls Logo Footer" class="footer-logo cursor-pointer hover:opacity-80 transition">
+
+            <span class="text-2xl font-bold text-white uppercase tracking-tighter">Krahls
+                    Naturprodukte</span>
+            <p class="mt-4 text-sm max-w-md mx-auto text-stone-500">Qualität, Tradition und Leidenschaft für echten Geschmack. Ihr Partner für Naturprodukte in Kirchardt.</p>
+
+            <div class="mt-8 flex justify-center space-x-6 text-sm">
+                <a href="impressum.html" class="hover:text-white transition">Impressum</a>
+                <a href="datenschutz.html" class="hover:text-white transition">Datenschutz</a>
+            </div>
+            <p class="mt-8 text-xs text-stone-600">© 2026 Krahls Naturprodukte
+            </p>
+        </div>
+    </footer>
+
+    <div id="logo-popup" class="fixed inset-0 z-[100] hidden items-center justify-center p-4">
+        <div id="logo-popup-overlay" class="absolute inset-0 bg-black/80 backdrop-blur-sm cursor-pointer transition-opacity"></div>
+
+        <img id="logo-popup-content" src class="relative z-10 max-h-[80vh] max-w-full object-contain rounded-lg shadow-2xl cursor-pointer">
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/logo.js"></script>
+    <script>
+        // Icons initialisieren falls nicht im script.js
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
