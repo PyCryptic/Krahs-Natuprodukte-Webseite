@@ -157,3 +157,14 @@ h3,
         height: 100px;
     }
 }
+
+/*Produkt Modal*/
+
+  .modal {
+            transition: opacity 0.25s ease;
+        }
+        
+        body.modal-active {
+            overflow-x: hidden;
+            overflow-y: hidden !important;
+        }
