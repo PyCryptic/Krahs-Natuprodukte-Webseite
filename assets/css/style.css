@@ -4,8 +4,9 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: local(''), url('../fonts/inter-v20-latin/inter-v20-latin-regular.woff2') format('woff2'), /* Beste Kompression */
-    url('../fonts/inter-v20-latin/inter-v20-latin-700.woff2') format('woff');
+    src: local(''), url('../fonts/inter-v20-latin/inter-v20-latin-regular.woff2') format('woff2'),
+        /* Beste Kompression */
+        url('../fonts/inter-v20-latin/inter-v20-latin-700.woff2') format('woff');
     /* Fallback */
     font-display: swap;
     /* Sorgt dafür, dass Text sofort sichtbar ist */
@@ -70,7 +71,7 @@ h4,
     height: 100%;
 }
 
- :root {
+:root {
     --wine-red: #5c1a1b;
     --stone-bg: #fafaf9;
 }
@@ -160,11 +161,47 @@ h3,
 
 /*Produkt Modal*/
 
-  .modal {
-            transition: opacity 0.25s ease;
-        }
-        
-        body.modal-active {
-            overflow-x: hidden;
-            overflow-y: hidden !important;
-        }
+.modal {
+    transition: opacity 0.25s ease;
+}
+
+body.modal-active {
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+}
+
+/* Kalender/Anfahrt */
+.calendar-day:hover {
+    background-color: #f5f5f4;
+}
+
+.calendar-day.active {
+    background-color: #292524;
+    color: white;
+}
+
+/* Dunkelgrau bei Auswahl */
+/* Farb-Dots für die verschiedenen Routen */
+
+.dot-yellow {
+    background-color: #EAB308;
+}
+
+.dot-green {
+    background-color: #16A34A;
+}
+
+.dot-orange {
+    background-color: #F97316;
+}
+
+.event-dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin: 4px auto 0;
+}
+
+.active .event-dot {
+    border: 1px solid white;
+}
