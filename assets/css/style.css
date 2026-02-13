@@ -67,8 +67,8 @@ h4,
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
 }
 
 :root {
@@ -177,7 +177,7 @@ body.modal-active {
 
 .calendar-day.active {
     background-color: #292524;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /* Dunkelgrau bei Auswahl */
